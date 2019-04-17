@@ -30,7 +30,7 @@ $white: #fff;
 $black: #000;
 
 html {
-	// overflow-x: hidden;
+	overflow-x: hidden !important;
 }
 body {
 	font-family: $font-family-sans-serif;
@@ -1189,7 +1189,7 @@ textarea.form-control {
 				&:after {
 					position: absolute;
 					content: "";
-					left: 10px;
+					right: 30px;
 					top: 5px;
 					width: 40px;
 					height: 40px;
@@ -1745,4 +1745,10 @@ textarea.form-control {
 
 .list-unstyled{
 	padding-right: 0;
+}
+
+#section-services{
+	.media.block-6{
+		text-align: left;
+	}
 }

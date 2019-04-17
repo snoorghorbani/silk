@@ -6279,6 +6279,9 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: "iran-sans-bold";
   src: url("../fonts/iran sans/IRANSansWeb_Bold.eot") format("eot"), url("../fonts/iran sans/IRANSansWeb_Bold.woff") format("woff"), url("../fonts/iran sans/IRANSansWeb_Bold.woff2") format("woff2"), url("../fonts/iran sans/IRANSansWeb_Bold.ttf") format("truetype"); }
 
+html {
+  overflow-x: hidden !important; }
+
 body {
   font-family: "iran-sans";
   background: #fff;
@@ -7158,7 +7161,7 @@ textarea.form-control {
     .block-6 .icon span.bg-after:after {
       position: absolute;
       content: "";
-      left: 10px;
+      right: 30px;
       top: 5px;
       width: 40px;
       height: 40px;
@@ -7571,3 +7574,6 @@ textarea.form-control {
 
 .list-unstyled {
   padding-right: 0; }
+
+#section-services .media.block-6 {
+  text-align: left; }
