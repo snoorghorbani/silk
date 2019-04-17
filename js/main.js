@@ -230,7 +230,19 @@ $(document).ready(function($) {
 	// });
 	// $('#m_time').timepicker();
 
-
-
+	
+	
 });
+
+var _ = {
+
+}
+
+_.scrollTo = function(id){
+	$('html, body').animate({
+		scrollTop: ($('#'+id).first().offset().top)
+	},500);
+	$('.nav-item').removeClass("active");
+	$('#' + id + '-nav').addClass("active");
+}
 
