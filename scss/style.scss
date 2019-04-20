@@ -520,7 +520,7 @@ textarea.form-control {
 
 .ftco-footer {
 	font-size: 16px;
-	background: $white;
+	background: $gray-800;
 	border-top: 1px solid #eeeeee;
 	padding: 8em 0;
 	.ftco-footer-logo {
@@ -533,10 +533,10 @@ textarea.form-control {
 		}
 	}
 	p {
-		color: rgba($black, .3);
+		color: rgba($white, .4);
 	}
 	a {
-		color: rgba($black, .3);
+		color: rgba($white, .3);
 		&:hover {
 			color: $primary;
 		}
@@ -549,7 +549,7 @@ textarea.form-control {
 		font-weight: bold;
 		// letter-spacing: .05em;
 		// text-transform: uppercase;
-		color: $black;
+		color: rgba($white, 0.7);
 	}
 }
 
@@ -1751,4 +1751,27 @@ textarea.form-control {
 	.media.block-6{
 		text-align: left;
 	}
+}
+
+section#section-home:before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	content: "";
+}
+#silk-agent-panel{
+	background-position-x: left;
+}
+#silk-broker-panel{
+	background-position-x: center;
+}
+#silk-user-panel{
+	background-position-x: right;
+}
+
+#section-panels .text{
+	width:100%;
 }
