@@ -4,26 +4,26 @@
 
 @font-face {
 	font-family: "iran-sans-light";
-	src: url("../fonts/iran sans/IRANSansWeb_UltraLight.eot") format("eot"),
-		url("../fonts/iran sans/IRANSansWeb_UltraLight.woff") format("woff"),
-		url("../fonts/iran sans/IRANSansWeb_UltraLight.woff2") format("woff2"),
-		url("../fonts/iran sans/IRANSansWeb_UltraLight.ttf") format("truetype");
+	src: url("../fonts/iran yekan/eot/light.eot") format("eot"),
+		url("../fonts/iran yekan/woff/light.woff") format("woff"),
+		url("../fonts/iran yekan/woff2/light.woff2") format("woff2"),
+		url("../fonts/iran yekan/IRANSansWeb_UltraLight.ttf") format("truetype");
 }
 
 @font-face {
 	font-family: "iran-sans";
-	src: url("../fonts/iran sans/IRANSansWeb_Light.eot") format("eot"),
-		url("../fonts/iran sans/IRANSansWeb_Light.woff") format("woff"),
-		url("../fonts/iran sans/IRANSansWeb_Light.woff2") format("woff2"),
-		url("../fonts/iran sans/IRANSansWeb_Light.ttf") format("truetype");
+	src: url("../fonts/iran yekan/eot/regular.eot") format("eot"),
+		url("../fonts/iran yekan/woff/regular.woff") format("woff"),
+		url("../fonts/iran yekan/woff2/regular.woff2") format("woff2"),
+		url("../fonts/iran yekan/IRANSansWeb_Light.ttf") format("truetype");
 }
 
 @font-face {
 	font-family: "iran-sans-bold";
-	src: url("../fonts/iran sans/IRANSansWeb_Bold.eot") format("eot"),
-		url("../fonts/iran sans/IRANSansWeb_Bold.woff") format("woff"),
-		url("../fonts/iran sans/IRANSansWeb_Bold.woff2") format("woff2"),
-		url("../fonts/iran sans/IRANSansWeb_Bold.ttf") format("truetype");
+	src: url("../fonts/iran yekan/eot/bold.eot") format("eot"),
+		url("../fonts/iran yekan/woff/bold.woff") format("woff"),
+		url("../fonts/iran yekan/woff2/bold.woff2") format("woff2"),
+		url("../fonts/iran yekan/IRANSansWeb_Bold.ttf") format("truetype");
 }
 
 $white: #fff;
@@ -237,7 +237,7 @@ h1, h2, h3, h4, h5,
   background-position: center center;
  	
 	.ftco-heading {
-		font-size: 50px;
+		font-size: 40px;
 		line-height: 1.2;
 		color: $white;
 		@include media-breakpoint-down(md) {
@@ -829,13 +829,15 @@ textarea.form-control {
 	.quote {
 		background: #97DE95;
 		background: $primary;
-		color: $black;
+		color: #100904;
 		width: 100%;
 		font-size: 24px;
-		padding: 80px!important;
+		padding: 30px!important;
 		.author {
 			display: block;
 			font-size: 16px;
+			text-align: left;
+			margin-left: 22px;
 		}
 	}
 	.image {
@@ -845,7 +847,7 @@ textarea.form-control {
 		margin-left: 0;
 		@include media-breakpoint-up(md) {
 			margin-top: -70px;
-			margin-left: -70px;	
+			// margin-left: -70px;	
 		}
 	}
 }
@@ -1774,4 +1776,18 @@ section#section-home:before {
 
 #section-panels .text{
 	width:100%;
+}
+
+#section-quote h3{
+	font-size: 1.5rem !important;
+	text-align: center;
+}
+
+#green-quote{
+	font-size: 1.1rem !important;
+	margin-bottom: 2rem !important;
+} 
+
+#section-team{
+	padding-top: 0;
 }
