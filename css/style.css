@@ -7610,3 +7610,6 @@ section#section-home:before {
 
 #section-team {
   padding-top: 0; }
+
+#section-contact-use {
+  display: none; }
